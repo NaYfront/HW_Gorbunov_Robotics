@@ -10,7 +10,7 @@ height = int(vid.get(cv2.CAP_PROP_FRAME_HEIGHT))
 # fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
 # out = cv2.VideoWriter('output.mp4', fourcc, 20.0, (640, 480))
 
-writer = cv2.VideoWriter('outputVideo.mp4v', cv2.VideoWriter_fourcc(*'DIVX'), 20, (width, height))
+writer = cv2.VideoWriter('outputVideo.mp4', cv2.VideoWriter_fourcc(*'DIVX'), 20, (width, height))
 while (True):
 
     # Capture the video frame
